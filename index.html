@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <title>Alura Geek</title>
+
+</head>
+<body>
+
+    <header class="header"> AluraGeek 
+        <img class="imagenlogo" src="./Assets/image 1.png" alt="logo">
+    </header>
+
+    <main class="main">
+        <section class="productos">
+            <h1 class="titulo_productos">MIS PRODUCTOS:</h1>
+            
+            <ul class="ul-cards" data-lista>
+          
+                   
+            </ul>
+        </section>
+        
+
+        <section class="formulario-producto" data-formulario>
+
+            <form class="container-formulario">
+                <h2 class="formulario-titulo" > AGREGAR PRODUCTO: </h2>
+                   
+                    <div class="formulario-campo">
+                        <input   name="nombre" id="nombre" class="campo-escrito" placeholder="Nombre..." required data-nombre>
+                    </div>
+
+                    <div class="formulario-campo">
+                        <input  name="imagen" id="imagen" class="campo-escrito" placeholder="Imagen..." required  data-Imagen>
+                    </div>
+
+                    <div class="formulario-campo">
+                        <input  name="precio" id="precio" class="campo-escrito" placeholder="Precio..." required data-precio>
+                    </div>      
+
+                
+                <input class="formulario-boton" type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+
+            </form>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="logo-titulo">
+            <img class="imagenlogo" src="./Assets/image 1.png" alt="logo">
+            <span>Alura Geek</span>
+        </div>
+        <p class="name">Desarrollado por José Hernández</p>
+    </footer>
+
+        <script src="./js/mostrarProductos.js" type="module"></script>
+        <script src="./js/crearProducto.js"  type="module"></script>
+</body>
+</html>

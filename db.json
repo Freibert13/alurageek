@@ -1,0 +1,28 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Camisa Ratier",
+      "Imagen": "https://acdn.mitiendanube.com/stores/001/269/653/products/20241105_083805-561640c4fd04ca083317308109670734-1024-1024.jpg",
+      "precio": 80
+    },
+    {
+      "nombre": "CAMISA 1201",
+      "Imagen": "https://acdn.mitiendanube.com/stores/001/269/653/products/20200701_10300011-d92196d8fc81fd4de315945823153219-1024-1024.jpg",
+      "precio": "10",
+      "id": 2
+    },
+    {
+      "nombre": "Camisa ratier rosa",
+      "Imagen": "https://acdn.mitiendanube.com/stores/001/269/653/products/20240905_0818081-2d2c9617bc5d9889cc17255389355042-1024-1024.jpg",
+      "precio": "100",
+      "id": 3
+    },
+    {
+      "nombre": "Camisa 1101",
+      "Imagen": "https://acdn.mitiendanube.com/stores/001/269/653/products/20200701_10300011-d92196d8fc81fd4de315945823153219-1024-1024.jpg",
+      "precio": "10",
+      "id": 4
+    }
+  ]
+}

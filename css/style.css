@@ -1,0 +1,191 @@
+/* Estilos generales */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /
+}
+
+
+/* Header */
+.header {
+    background-color: #5300c8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.main {
+    font-family: 'Press Start 2P';
+    margin: 5%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 20px;
+    flex-grow: 1;
+}
+/* Productos Section */
+.productos {
+    margin-top: 0;
+    padding: 3%;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    width: 100%; 
+    max-width: 600px; 
+}
+
+.titulo_productos {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+/* Tarjetas de producto */
+.ul-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    max-width: 100%; 
+}
+
+.card {
+    background-color: #5d04d9;
+    border: 6px solid #5d04d9;
+    border-radius: 9px;
+    width: 100%; 
+    max-width: 200px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.card-info {
+    padding: 16px;
+    text-align: center;
+}
+
+.card-price {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+/* Formulario de producto */
+.formulario-producto {
+    width: 100%;
+    max-width: 400px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.container-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.formulario-titulo {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulario-campo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.campo-escrito {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.formulario-boton,
+input[type="reset"] {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #5300c8;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="reset"] {
+    background-color: #d9534f; 
+}
+
+.footer {
+    background-color: #5300c8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.footer .logo-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .imagenlogo {
+    width: 50px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
+.footer .name {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 10px; 
+}
+
+
+
+@media (min-width: 768px) {
+    .main {
+        flex-direction: row; 
+        justify-content: center;
+        align-items: flex-start;
+        gap: 50px;
+    }
+
+    .productos {
+        width: 60%; 
+    }
+
+    .formulario-producto {
+        width: 35%; 
+    }
+}
